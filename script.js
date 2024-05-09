@@ -19,12 +19,12 @@ function toggleMode(){
    //substituir a imagem
    if(html.classList.contains("light")){
     // se tiver light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/sun.png")
     textFoto.setAttribute("alt", "Foto com fundo escuro, Usando oculos escuro")
 
    }else{
     //se tiver sem light mode
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/lua-cheia.png")
     textFoto.setAttribute("alt", "Foto com fundo amarelo, Usando oculos normal ")
 
    }
